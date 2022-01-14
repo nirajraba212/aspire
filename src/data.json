@@ -1,0 +1,70 @@
+{
+    "data" : [
+        {
+            "id": "1",
+            "name": "Mark Henry",
+            "accountNumber": "123456789",
+            "bankName": "Axis",
+            "number": "1234567887654321",
+            "expireDate": "Fri Jan 14 2024 02:20:25 GMT+0530 (India Standard Time)",
+            "type": "personal",
+            "cvv": "123",
+            "isFreeze": false,
+            "availableBalance": 3000,
+            "billingAddress": "B-25, Simandhar Status, Mumbai, India",
+            "transactions": [
+                { "name": "Hamley", "type": "credit", "amount": 100, "date": "20 May 2020", "desc": "Refund on debit card", "category": "grocery" },
+                { "name": "Hamley", "type": "debit", "amount": 100, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 100, "date": "20 May 2020", "desc": "Charged to debit card", "category": "grocery" },
+                { "name": "Hamley", "type": "debit", "amount": 100, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 100, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 100, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 100, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Mark Henry 1",
+            "accountNumber": "1234567890",
+            "bankName": "Axis",
+            "number": "1234567887654444",
+            "expireDate": "Fri Feb 14 2025 02:20:25 GMT+0530 (India Standard Time)",
+            "type": "personal",
+            "cvv": "456",
+            "availableBalance": 3500,
+            "isFreeze": false,
+            "billingAddress": "B-25, Simandhar Status, Delhi, India",
+            "transactions": [
+                { "name": "Hamley", "type": "credit", "amount": 200, "date": "20 May 2020", "desc": "Refund on debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "grocery" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "credit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Mark Henry 1",
+            "accountNumber": "1234567890",
+            "bankName": "Axis",
+            "number": "1234567887654444",
+            "expireDate": "Fri Feb 14 2025 02:20:25 GMT+0530 (India Standard Time)",
+            "type": "company",
+            "cvv": "456",
+            "availableBalance": 4000,
+            "isFreeze": true,
+            "billingAddress": "B-25, Simandhar Status, chennai, India",
+            "transactions": [
+                { "name": "Hamley", "type": "credit", "amount": 200, "date": "20 May 2020", "desc": "Refund on debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "credit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "grocery" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" },
+                { "name": "Hamley", "type": "debit", "amount": 200, "date": "20 May 2020", "desc": "Charged to debit card", "category": "transport" }
+            ]
+        }
+    ]
+}
